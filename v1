@@ -1,3 +1,5 @@
+# this is in python, a basic classification model with no hidden layers
+
 x = float(input("enter input 1: "))
 y = float(input("enter input 2: "))
 
