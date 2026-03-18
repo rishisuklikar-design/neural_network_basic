@@ -1,0 +1,11 @@
+x = float(input("enter input 1: "))
+y = float(input("enter input 2: "))
+
+score = 0.0338412 * x**2 - 0.210914 * x - y + 4.82955
+
+if score == 0:
+    print("on boundary")
+elif score > 0:
+    print("class 1")
+else:
+    print("class 2")
