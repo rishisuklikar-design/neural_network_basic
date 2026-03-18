@@ -1,0 +1,12 @@
+x = float(input("enter input 1: "))
+y = float(input("enter input 2: "))
+
+out2 = 0.5 * x + 0.5 * y - 5.8958
+out1 = -0.5 * x - 0.5 * y + 5.8958
+
+if out1 > out2:
+    print("class 1")
+elif out2 > out1:
+    print("class 2")
+else:
+    print("equally likely")
